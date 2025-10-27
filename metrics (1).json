@@ -1,0 +1,9 @@
+{
+  "Recommendation Accuracy": 0.415,
+  "Precision": 0.25555555555555554,
+  "Recall": 0.4,
+  "Avg Response Time (s)": 0.0013671517372131348,
+  "Optimization Efficiency (simulated avg %)": 13.609773017781254,
+  "User Satisfaction Index (simulated, 1-5)": 2.66,
+  "Test Set Size": 200
+}

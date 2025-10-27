@@ -1,0 +1,1221 @@
+num_lines,loop_count,max_loop_depth,uses_recursion,input_size,label,code,pred_label
+5,2,2,1,50,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,50,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,200,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,200,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,200,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,200,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,1000,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,1,1,0,100,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+10,4,3,1,100,graph_dijkstra,"def shortest_path(graph, src):
+    dist = {}
+    for v in graph:
+        dist[v] = float('inf')
+    # naive relaxation loops
+    for _ in range(len(graph)):
+        for u in graph:
+            for v in graph[u]:
+                # update dist
+                pass",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,10000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,10000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,1,1,0,1000,search_hash,"def find_val(arr, x):
+    for v in arr:
+        if v == x:
+            return True
+    return False",search_hash
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,200,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,10000,sort_merge,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,50,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_quick,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
+5,2,2,1,1000,sort_builtin,"def sort_arr(arr):
+    for i in range(len(arr)):
+        for j in range(i+1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]",sort_builtin
